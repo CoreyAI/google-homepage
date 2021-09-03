@@ -31,7 +31,7 @@
 }
 
 .logo {
-    padding-top: 20%;
+    padding-top: 100px;
     width: 200px;
     height: auto;
 
@@ -51,8 +51,15 @@
 
 .search-btn {
     justify-content: center;
-    padding: 5px;
+    padding: 10px;
     margin: 0px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.ft-lh {
+    display: flex;
+    position: relative;
 }
 
 a {
@@ -71,5 +78,14 @@ form {
     align-items: center;
     display: flex;
     flex-direction: column;
+}
 
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    align-items: center;
 }
