@@ -24,6 +24,37 @@
     border: none;
 }
 
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    padding-top: 20%;
+    width: 200px;
+    height: auto;
+
+}
+
+.search {
+    border-radius: 10px/10px;
+    width: 400px;
+    height: auto;
+}
+
+.search-btn-row {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.search-btn {
+    justify-content: center;
+    padding: 5px;
+    margin: 0px 10px;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -33,4 +64,12 @@ a {
 a:hover {
     color: black;
     text-decoration: underline;
+}
+
+form {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
 }
